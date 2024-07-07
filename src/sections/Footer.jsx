@@ -1,5 +1,6 @@
 import { copyrightSign, instagram } from "../assets/icons";
 import { footerLogo } from "../assets/images";
+import { headLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className='flex flex-col items-start'>
           <a href='/'>
             <img
-              src="./public/treades_transparent.png"
+              src={headLogo}
               alt='logo'
               width={150}
               height={46}

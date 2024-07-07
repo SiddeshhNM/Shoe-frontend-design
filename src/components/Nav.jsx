@@ -1,6 +1,7 @@
 import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
+import { headLogo } from "../assets/images";
 
 const Nav = () => {
   return (
@@ -8,7 +9,7 @@ const Nav = () => {
       <nav className='flex justify-between items-center max-container bg-violet-500 rounded-xl'>
         <a href='/'>
           <img
-            src="./public/treades_transparent.png"
+            src={headLogo}
             alt='logo'
             width={60}
             height={20}
