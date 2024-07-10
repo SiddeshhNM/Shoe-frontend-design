@@ -33,22 +33,22 @@ export const products = [
     {
         imgURL: shoe4,
         name: "Tread Air Jordan-01",
-        price: "$200.20",
+        price: "₹10,000",
     },
     {
         imgURL: shoe5,
         name: "Tread Air Jordan-10",
-        price: "$210.20",
+        price: "₹21,299",
     },
     {
         imgURL: shoe6,
         name: "Tread Air Jordan-100",
-        price: "$220.20",
+        price: "₹22,010",
     },
     {
         imgURL: shoe7,
         name: "Tread Zoro edition",
-        price: "$230.20",
+        price: "₹33,345",
     },
 ];
 
